@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=UTF-8">
+	<style type="text/css">
+		* {font-weight:bold;}
+		.memberDiv {background-color:#eeeff0; }
+		.memberBox {background-color:#eeeff0; height:430px;}
+		.tableTd { padding:30px 35px; margin:5px;}
+	</style>
+</head>
+
+<body>
+<br><br>
+<center>
+<hr align="center" width="70%" color="purple" size="3px">
+<div class="memeberDiv">
+<h1 style="color: purple;">회원가입</h1>
+<table class="memberBox">
+  
+<form method="get" action="member.jsp">  
+	<tr>
+		<td class="tableTd">*아이디 <input type="text" size="10" name="member_id" value="" autofocus required>&nbsp;&nbsp;
+		<input type="button" name="idcheck" onclick="alert('사용가능한 아이디입니다.')" value="중복확인"></td>
+		<td class="tableTd">*닉네임 <input type="text" name="member_name" size="10" value="" required></td>
+	</tr> 
+         
+	<tr>
+		<td  class="tableTd">*비밀번호 <input type="password" size="12" value="" required></td>
+	    <td  class="tableTd">*비밀번호 확인 <input type="password" size="12" value="" required></td>
+	</tr>
+	
+    <tr>
+		<td class="tableTd">이름 <input type="text" size="11" value=""></td>
+		<td  class="tableTd">주민등록번호
+		<input type="text" maxlength="6" size="6" value=""> - 
+		<input type="text" maxlength="7" size="7"  value="">
+		<input type="button" name="birthCheck" onclick="alert('인증되었습니다.')" value="본인인증" ></td>
+    </tr>
+
+	<tr>
+		<td  class="tableTd">휴대전화
+			<SELECT NAME="hp">  
+			  <OPTION VALUE=""> </OPTION>  
+			  <option VALUE="1">010</OPTION> <option VALUE="2">011</OPTION> 
+			  <option VALUE="3">016</OPTION> <option VALUE="4">017</OPTION> 
+			  <option VALUE="5">018</OPTION> <option VALUE="6">019</OPTION> 
+			 </SELECT> - 
+			 <input type="text" size="4" maxlength="4" value=""> - 
+			 <input type="text" size="4" maxlength="4" value="">
+		</td>
+		<td class="tableTd">이메일
+			<input type="text" size="10" value=""> @
+			<input type="text" list="emaiList" size="10" name="mail">
+				<datalist id="emaiList">
+					<option>naver.com</option>
+					<option>hanmail.net</option>
+					<option>gmail.com</option>
+					<option>nate.com</option>
+				</datalist> 
+		</td>
+    </tr>
+	<tr>
+		<td colspan="2" align="center"><input type="submit" value="가입">&nbsp;&nbsp;<input type="reset" value="재입력"></td>
+	</tr>
+</form>
+</table>
+</div>
+<br>
+<hr align="center" width="70%" color="purple" size="3px">
+</body>
+</html>
