@@ -1,8 +1,8 @@
-<%@page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="EUC-KR"%>
 <html>
 	<head>
-		<title>ë©”ë‰´ í”„ë ˆìž„</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>¸Þ´º ÇÁ·¹ÀÓ</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 		<link href="test.css" type="text/css" rel="stylesheet">
 		<style type="text/css">
 			a:link {text-decoration:none; color:white;}
@@ -30,9 +30,9 @@
 				}
 				<% String strID=request.getParameter("id"); %>
 				var strName = "<%=strID%>";
-				document.write(findName(strName) + " ë‹˜!<br/>ë°˜ê°‘ìŠµë‹ˆë‹¤.<br>");
+				document.write(findName(strName) + " ´Ô!<br/>¹Ý°©½À´Ï´Ù.<br>");
 				</script>
-				<p align="center"> <input type="button" value="ë¡œê·¸ì•„ì›ƒ" onClick="javascript:logoutProcess()"></p>
+				<p align="center"> <input type="button" value="·Î±×¾Æ¿ô" onClick="javascript:logoutProcess()"></p>
 			</fieldset>
 		</form>
 		</div>

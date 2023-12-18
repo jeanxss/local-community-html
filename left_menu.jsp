@@ -1,8 +1,7 @@
-<%@page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
 <html> 
 <head> 
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<Link Rel="Stylesheet" Type="text/css" href="test.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body> 
@@ -14,16 +13,16 @@
 		<img src="./image/profile.jpg"><br>
 		<%
 		String strID=request.getParameter("id");
-		out.println(strID + " ë‹˜<br/>ì ‘ì†ì¤‘ ìž…ë‹ˆë‹¤.<br>");
+		out.println(strID + " ´Ô<br/>Á¢¼ÓÁß ÀÔ´Ï´Ù.<br>");
 		%>
-		<p align ="center"> <input type="submit" value="ë¡œê·¸ì•„ì›ƒ"></p>
+		<p align ="center"> <input type="submit" value="·Î±×¾Æ¿ô"></p>
 	</fieldset>
 	</form>
 	<br><br><br>
-	<div class="mymenu"><a href="#" class="txt2">ë‚˜ì˜ ê¸€</a></div><br>
-	<div class="mymenu"><a href="#" class="txt2">ë‚˜ì˜ ëŒ“ê¸€</a></div><br>
-	<div class="mymenu"><a href="#" class="txt2">ì¢‹ì•„ìš”í•œ ê¸€</a></div><br>
-	<div class="mymenu"><a href="#" class="txt2">ìŠ¤í¬ëž©í•œ ê¸€</a></div><br>
+	<div class="mymenu"><a href="#" class="txt2">³ªÀÇ ±Û</a></div><br>
+	<div class="mymenu"><a href="#" class="txt2">³ªÀÇ ´ñ±Û</a></div><br>
+	<div class="mymenu"><a href="#" class="txt2">ÁÁ¾Æ¿äÇÑ ±Û</a></div><br>
+	<div class="mymenu"><a href="#" class="txt2">½ºÅ©·¦ÇÑ ±Û</a></div><br>
 	<br><br>
 	<img src="./image/ban1.jpg" width="200px" height="50px"><br><br>
 	<img src="./image/ban2.jpg" width="200px" height="50px"><br><br>
