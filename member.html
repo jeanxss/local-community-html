@@ -14,31 +14,31 @@
 <center>
 <hr align="center" width="70%" color="purple" size="3px">
 <div class="memeberDiv">
-<h1 style="color: purple;">ȸ������</h1>
+<h1 style="color: purple;">회원가입</h1>
 <table class="memberBox">
   
 <form method="get" action="member.jsp">  
 	<tr>
-		<td class="tableTd">*���̵� <input type="text" size="10" name="member_id" value="" autofocus required>&nbsp;&nbsp;
-		<input type="button" name="idcheck" onclick="alert('��밡���� ���̵��Դϴ�.')" value="�ߺ�Ȯ��"></td>
-		<td class="tableTd">*�г��� <input type="text" name="member_name" size="10" value="" required></td>
+		<td class="tableTd">*아이디 <input type="text" size="10" name="member_id" value="" autofocus required>&nbsp;&nbsp;
+		<input type="button" name="idcheck" onclick="alert('사용가능한 아이디입니다.')" value="중복확인"></td>
+		<td class="tableTd">*닉네임 <input type="text" name="member_name" size="10" value="" required></td>
 	</tr> 
          
 	<tr>
-		<td  class="tableTd">*��й�ȣ <input type="password" size="12" value="" required></td>
-	    <td  class="tableTd">*��й�ȣ Ȯ�� <input type="password" size="12" value="" required></td>
+		<td  class="tableTd">*비밀번호 <input type="password" size="12" value="" required></td>
+	    <td  class="tableTd">*비밀번호 확인 <input type="password" size="12" value="" required></td>
 	</tr>
 	
     <tr>
-		<td class="tableTd">�̸� <input type="text" size="11" value=""></td>
-		<td  class="tableTd">�ֹε�Ϲ�ȣ
+		<td class="tableTd">이름 <input type="text" size="11" value=""></td>
+		<td  class="tableTd">주민등록번호
 		<input type="text" maxlength="6" size="6" value=""> - 
 		<input type="text" maxlength="7" size="7"  value="">
-		<input type="button" name="birthCheck" onclick="alert('�����Ǿ����ϴ�.')" value="��������" ></td>
+		<input type="button" name="birthCheck" onclick="alert('인증되었습니다.')" value="본인인증" ></td>
     </tr>
 
 	<tr>
-		<td  class="tableTd">�޴���ȭ
+		<td  class="tableTd">휴대전화
 			<select NAME="hp">  
 			  <option VALUE=""> </option>  
 			  <option VALUE="1">010</option> <option VALUE="2">011</option> 
@@ -48,7 +48,7 @@
 			 <input type="text" size="4" maxlength="4" value=""> - 
 			 <input type="text" size="4" maxlength="4" value="">
 		</td>
-		<td class="tableTd">�̸���
+		<td class="tableTd">이메일
 			<input type="text" size="10" value=""> @
 			<input type="text" list="emaiList" size="10" name="mail">
 				<datalist id="emaiList">
@@ -60,7 +60,7 @@
 		</td>
     </tr>
 	<tr>
-		<td colspan="2" align="center"><input type="submit" value="����">&nbsp;&nbsp;<input type="reset" value="���Է�"></td>
+		<td colspan="2" align="center"><input type="submit" value="가입">&nbsp;&nbsp;<input type="reset" value="재입력"></td>
 	</tr>
 </form>
 </table>
