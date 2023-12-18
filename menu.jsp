@@ -1,8 +1,8 @@
-<%@page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="EUC-KR"%>
+<%@page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
 <html>
 	<head>
 		<title>메뉴 프레임</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<link href="test.css" type="text/css" rel="stylesheet">
 		<style type="text/css">
 			a:link {text-decoration:none; color:white;}
