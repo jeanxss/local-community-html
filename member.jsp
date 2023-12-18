@@ -1,7 +1,7 @@
 <%@page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
 <html>
 <head>
-	<title>GET ¹æ½Ä ¿äÃ»</title>
+	<title>GET ë°©ì‹ ìš”ì²­</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<style>
 		body {background: linear-gradient(#b7e0ab,white);}
@@ -9,21 +9,21 @@
 </head>
 <body>
 <center>
-<h1>È¸¿ø°¡ÀÔÀÌ ¿Ï·áµÇ¾ú½À´Ï´Ù.</h1>
+<h1>íšŒì›ê°€ìž…ì´ ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.</h1>
 <table>
 <tr>
-<td>ÀÌ¸§</td>
+<td>ì´ë¦„</td>
 <td>
-<!-- JSP ¹®¹ý ÀÛ¼º -->
+<!-- JSP ë¬¸ë²• ìž‘ì„± -->
 <%
 String strName=request.getParameter("member_name");
 out.println(strName);
 %>
 </td></tr>
 <tr>
-<td>¾ÆÀÌµð</td>
+<td>ì•„ì´ë””</td>
 <td>
-<!-- JSP ¹®¹ý ÀÛ¼º -->
+<!-- JSP ë¬¸ë²• ìž‘ì„± -->
 <%
 String strID=request.getParameter("member_id");
 out.println(strID);

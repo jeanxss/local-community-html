@@ -13,16 +13,16 @@
 		<img src="./image/profile.jpg"><br>
 		<%
 		String strID=request.getParameter("id");
-		out.println(strID + " ´Ô<br/>Á¢¼ÓÁß ÀÔ´Ï´Ù.<br>");
+		out.println(strID + " ë‹˜<br/>ì ‘ì†ì¤‘ ìž…ë‹ˆë‹¤.<br>");
 		%>
-		<p align ="center"> <input type="submit" value="·Î±×¾Æ¿ô"></p>
+		<p align ="center"> <input type="submit" value="ë¡œê·¸ì•„ì›ƒ"></p>
 	</fieldset>
 	</form>
 	<br><br><br>
-	<div class="mymenu"><a href="#" class="txt2">³ªÀÇ ±Û</a></div><br>
-	<div class="mymenu"><a href="#" class="txt2">³ªÀÇ ´ñ±Û</a></div><br>
-	<div class="mymenu"><a href="#" class="txt2">ÁÁ¾Æ¿äÇÑ ±Û</a></div><br>
-	<div class="mymenu"><a href="#" class="txt2">½ºÅ©·¦ÇÑ ±Û</a></div><br>
+	<div class="mymenu"><a href="#" class="txt2">ë‚˜ì˜ ê¸€</a></div><br>
+	<div class="mymenu"><a href="#" class="txt2">ë‚˜ì˜ ëŒ“ê¸€</a></div><br>
+	<div class="mymenu"><a href="#" class="txt2">ì¢‹ì•„ìš”í•œ ê¸€</a></div><br>
+	<div class="mymenu"><a href="#" class="txt2">ìŠ¤í¬ëž©í•œ ê¸€</a></div><br>
 	<br><br>
 	<img src="./image/ban1.jpg" width="200px" height="50px"><br><br>
 	<img src="./image/ban2.jpg" width="200px" height="50px"><br><br>
